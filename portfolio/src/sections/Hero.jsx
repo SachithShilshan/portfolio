@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Hero({
-  title = 'XCEED — Data, AI & Automation',
+  title = 'Data, AI & Automation',
   subtitle = 'Practical AI, scalable data engineering, and automation that deliver measurable business impact.',
   cta = { text: 'Get Started', href: '/contact' }
 }) {
@@ -37,51 +37,81 @@ export default function Hero({
 
           {/* Right side hero illustration box */}
           {/* Right side hero illustration box */}
-<div>
-  <div className="w-full h-auto py-6 bg-gradient-to-br from-teal-100 to-cyan-100 dark:from-slate-800 dark:to-slate-800 rounded-xl flex flex-col items-center justify-center text-slate-700 dark:text-slate-200">
+          <div>
+            <div className="w-full h-auto py-6 bg-gradient-to-br from-teal-100 to-cyan-100 dark:from-slate-800 dark:to-slate-800 rounded-xl flex flex-col items-center justify-center text-slate-700 dark:text-slate-200">
 
-    {/* Photo */}
-    <img
-      src="\src\sections\photo.jpg"   // <-- replace with your actual photo path
-      alt="Sachit Shilsan"
-      className="w-28 h-28 rounded-full object-cover shadow-lg border-2 border-white dark:border-slate-700"
-    />
+              {/* Photo */}
+              <img
+                src="\src\sections\photo.jpg"   // <-- replace with your actual photo path
+                alt="Sachit Shilsan"
+                className="w-28 h-28 rounded-full object-cover shadow-lg border-2 border-white dark:border-slate-700"
+              />
 
-    {/* Name */}
-    <div className="text-xl font-bold mt-3">
-      Shilshan Bandara
-    </div>
+              {/* Name */}
+              <div className="text-xl font-bold mt-3">
+                Shilshan Bandara Thennakoon
+              </div>
 
-    {/* Title */}
-    <div className="text-sm opacity-80">
-      Data Science & AI | Automation | Business Intelligence
-    </div>
+              {/* Title */}
+              <div className="text-sm opacity-80">
+                Data Science & AI | Automation | Business Intelligence
+              </div>
 
-    {/* Divider */}
-    <div className="w-20 h-[1px] bg-slate-400 dark:bg-slate-500 my-4"></div>
+              {/* Divider */}
+              <div className="w-20 h-[1px] bg-slate-400 dark:bg-slate-500 my-4"></div>
 
-    {/* Description */}
-    <div className="text-center px-6 text-sm">
-      Empowering businesses with data-driven automation, intelligent systems,
-      and scalable AI engineering solutions.
-    </div>
+              {/* Description */}
+              <div className="text-center px-6 text-sm">
+                Empowering businesses with data-driven automation, intelligent systems,
+                and scalable AI engineering solutions.
+              </div>
 
-    {/* Contact Details */}
-    <div className="mt-4 text-sm space-y-1 text-center">
-      <div><span className="font-semibold">Email:</span> sachit@example.com</div>
-      <div><span className="font-semibold">Phone:</span> +94 xxx xxx xxx</div>
-      <div>
-        <span className="font-semibold">LinkedIn:</span>{" "}
-        <a
-          href="https://linkedin.com/in/yourprofile"
-          className="text-teal-600 dark:text-teal-300 underline"
-        >
-          linkedin.com/in/sachit
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+              {/* Contact Details */}
+          
+                <div className="flex-1 min-w-0">
+                
+
+                  <div className="mt-5 flex items-center gap-3">
+                    <a
+                     href="mailto:Shilshan@outlook.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs bg-green-50 dark:bg-green-900/20 text-blue-400 dark:text-blue-200 px-2 py-1 rounded-full border border-green-100 dark:border-blue-700"
+                    >
+                       Email
+                    </a>
+
+                    <a
+                      href="tel:+94771123977"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs bg-green-50 dark:bg-green-900/20 text-red-400 dark:text-red-100 px-2 py-1 rounded-full border border-green-100 dark:border-red-300"
+                    >
+                      Phone
+                    </a>
+                    <a
+                      href="https://wa.me/94771123977"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-300 px-2 py-1 rounded-full border border-green-100 dark:border-green-800"
+                    >
+                      WhatsApp
+                    </a>
+
+                    <a
+                      href="https://www.linkedin.com/in/sachith-shilshan/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs bg-slate-50 dark:bg-slate-900/20 text-teal-600 dark:text-teal-300 px-2 py-1 rounded-full border border-slate-100 dark:border-teal-800"
+                    >
+                      LinkedIn
+                    </a>
+                  </div>
+                </div>
+             
+            
+            </div>
+          </div>
 
         </div>
       </div>
@@ -134,7 +164,7 @@ export default function Hero({
             </div>
 
             {/* Small right-side info */}
-            
+
           </div>
         </div>
       </div>

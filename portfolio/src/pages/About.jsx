@@ -5,9 +5,9 @@ export default function About() {
   return (
     <div className="py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-0 ">
-        <h1 className="text-3xl font-bold">About XCEED</h1>
+        <h1 className="text-3xl font-bold">About </h1>
         <p className="mt-4 text-slate-600 dark:text-slate-300">
-          XCEED helps organizations transform with data, AI and automation. We work with teams across industries to find high-value opportunities,
+          We helps organizations transform with data, AI and automation. We work with teams across industries to find high-value opportunities,
           build reliable systems and deliver measurable impact — faster.
         </p>
 
@@ -26,7 +26,7 @@ export default function About() {
             <div className="mt-2 text-sm text-slate-600 dark:text-slate-300">
               <div><strong>Shilshan Bandara</strong></div>
               <div className="text-xs">Specialist in BI, Data & AI</div>
-              <div className="text-xs">Owner • Co-founder • CEO — XCEED</div>
+              <div className="text-xs">Owner • Co-founder — XCEED</div>
               <div className="mt-2">
                 <a href="https://www.linkedin.com/in/sachith-shilshan/" target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-300 underline">
                   View LinkedIn profile → 

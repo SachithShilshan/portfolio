@@ -31,10 +31,9 @@ export default function Contact() {
           {/* Contact details card */}
           <aside className="p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 shadow">
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-teal-400 to-cyan-700 flex items-center justify-center text-white font-bold">X</div>
-              <div>
-                <div className="font-semibold">XCEED — Contact</div>
-                <div className="text-sm mt-1 text-slate-600 dark:text-slate-300">Owner • Co-founder • CEO — Shilshan Bandara</div>
+               <div>
+                <div className="font-semibold"> Contact</div>
+                <div className="text-sm mt-1 text-slate-600 dark:text-slate-300">Shilshan Bandara</div>
                 <a href="https://www.linkedin.com/in/sachith-shilshan/" target="_blank" rel="noopener noreferrer" className="text-sm text-teal-600 dark:text-teal-300 underline mt-2 inline-block">View LinkedIn</a>
               </div>
             </div>
@@ -60,7 +59,7 @@ export default function Contact() {
                 <svg className="w-5 h-5 text-rose-500" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                 <div>
                   <div className="font-medium">Email</div>
-                  <a href="mailto:hello-xceed@outlook.com" className="underline">hello-xceed@outlook.com</a>
+                  <a href="mailto:Shilshan@outlook.com" className="underline">Shilshan@outlook.com</a>
                 </div>
               </div>
 
@@ -68,7 +67,7 @@ export default function Contact() {
                 <svg className="w-5 h-5 text-sky-600" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M16 8a6 6 0 10-8 0v8a4 4 0 004 4h0a4 4 0 004-4V8z"/></svg>
                 <div>
                   <div className="font-medium">LinkedIn</div>
-                  <a href="https://www.linkedin.com/company/xceed1/" target="_blank" rel="noopener noreferrer" className="underline">XCEED </a>
+                  <a href="https://www.linkedin.com/in/sachith-shilshan/" target="_blank" rel="noopener noreferrer" className="underline">Shilshan </a>
                 </div>
               </div>
             </div>

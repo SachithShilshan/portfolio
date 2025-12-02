@@ -34,7 +34,7 @@ export default function ContactForm() {
           email: form.email,
           phone: form.phone,
           message: form.message,
-          source: 'xceed-contact'
+          source: 'contact'
         };
 
         const res = await fetch(FORMSPREE_ENDPOINT, {
@@ -60,9 +60,9 @@ export default function ContactForm() {
 
     // Fallback to mailto: open user's email client
     try {
-      const subject = encodeURIComponent(`Contact from XCEED site — ${form.name}`);
+      const subject = encodeURIComponent(`Contact from  site — ${form.name}`);
       const body = encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\n\n${form.message}`);
-      window.location.href = `mailto:hello-xceed@outlook.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:Shilshan@outlook.com?subject=${subject}&body=${body}`;
       setStatus({ loading: false, success: 'Mail client opened — send the message from your email app.', error: '' });
       setShowToast(true);
       setForm({ name: '', email: '', phone: '', message: '' });
@@ -147,7 +147,7 @@ export default function ContactForm() {
             {status.loading ? 'Sending…' : 'Send Message'}
           </button>
 
-          <a href="mailto:hello-xceed@outlook.com" className="text-sm text-slate-600 dark:text-slate-300 underline">Or email us directly</a>
+          <a href="mailto:Shilshan@outlook.com" className="text-sm text-slate-600 dark:text-slate-300 underline">Or email us directly</a>
         </div>
 
         {/* status */}
